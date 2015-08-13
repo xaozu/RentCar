@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+    <include layout="@layout/toolbar_layout" />
+    <!--需要录入的信息 ，用车时间，预计使用时间（没有满电车辆的情况下，可使用充电车辆），用车人， -->
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_star_time"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        app:met_hideUnderline="false"
+        app:met_primaryColor="?attr/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelTextColor="?attr/colorPrimary"
+        app:met_floatingLabelText="预计取车时间"
+        android:hint="2015-08-05 14:00"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_time"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        app:met_hideUnderline="false"
+        app:met_primaryColor="?attr/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelTextColor="?attr/colorPrimary"
+        app:met_floatingLabelText="预计用车时间(在无满电车辆情况下可匹配充电车辆)"
+        android:hint="6个小时"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_user"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        app:met_hideUnderline="false"
+        app:met_primaryColor="?attr/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelTextColor="?attr/colorPrimary"
+        app:met_floatingLabelText="用车人联系方式"
+        android:hint="138000000000"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">就租个车</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">吐个槽</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_map">地图</string>
+
+    <string name="reserve_success">预约成功！</string>
+    <string name="reserve_message">车辆信息发布成功！</string>
+    <string name="rent_user_message">暂未实现！</string>
+</resources>

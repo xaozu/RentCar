@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+    <include layout="@layout/toolbar_layout" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:visibility="visible"
+        android:id="@+id/edit_star_time"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        app:met_hideUnderline="false"
+        app:met_primaryColor="?attr/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelTextColor="?attr/colorPrimary"
+        app:met_floatingLabelText="用户名/手机号"
+        android:hint="username"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:visibility="visible"
+        android:id="@+id/edit_time"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:password="true"
+        app:met_hideUnderline="false"
+        app:met_primaryColor="?attr/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelTextColor="?attr/colorPrimary"
+        app:met_floatingLabelText="密码"
+        android:hint="123456"/>
+
+
+
+</LinearLayout>
